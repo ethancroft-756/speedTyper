@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <script src="https://use.fontawesome.com/2efc992e3a.js"></script>
+
+        <link rel="stylesheet" href="../css/main.css" />
+
+
+
+        <title>Demo</title>
+    </head>
+
+    <body class="page-body">
+        <div class="game-container game-styles">
+            <h1 class="page-title">Speed Typer</h1>
+
+            <div class="page-diff-buttons">
+                <p>Choose your difficulty</p>
+
+                <button class="game-diff-easy game-button">Easy</button>
+                <button class="game-diff-medium game-button">Medium</button>
+                <button class="game-diff-hard game-button">Hard</button>
+            </div>
+
+            <div class="game-cols">
+                <p class="game-time-remaining">Time left: <span class="game-time-remaining-amt"></span></p>
+
+                <p class="game-score">Score: <span class="game-score-amt">0</span></p>
+            </div>
+            <p class="game-instructions">Type the following:</p>
+
+            <p class="game-word"></p>
+
+            <p class="font--large"></p>
+
+            <input class="game-input" placeholder="Type to start...">
+        </div>
+
+        <div class="game-end-notice game-styles hide">
+            <p>Time ran out!</p>
+
+            <p class="final-score">Your final score is: <span class="final-score-amt"></span></p>
+
+            <button class="game-reload game-button">Reload</button>
+
+            <p>Change difficulty?</p>
+
+            <button class="game-diff-easy game-button">Easy</button>
+            <button class="game-diff-medium game-button">Medium</button>
+            <button class="game-diff-hard game-button">Hard</button>
+        </div>
+
+        <script src="../js/main.js"></script>
+    </body>
+</html>
